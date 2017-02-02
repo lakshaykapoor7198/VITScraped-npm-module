@@ -34,7 +34,9 @@
     "proctor",
     "timetable",
     "messages",
-    "spotlight"
+    "spotlight",
+    "vit",
+    "vit.ac.in"
   ],
   "bugs": {
     "url": "https://github.com/lakshaykapoor7198/VITScraped-npm-module/issues"
