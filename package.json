@@ -1,0 +1,43 @@
+{
+  "name": "vitscraped",
+  "version": "1.0.0",
+  "description": "Fully scraping VTOP-student login",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lakshay <lakapoor777@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "memory-cache": "^0.1.6",
+    "request": "^2.79.0",
+    "unirest": "^0.5.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lakshaykapoor7198/VITScraped-npm-module.git"
+  },
+  "keywords": [
+    "vtop",
+    "student",
+    "scrape",
+    "full",
+    "module",
+    "attendance",
+    "marks",
+    "coursepage",
+    "assignments",
+    "faculty",
+    "profile",
+    "proctor",
+    "timetable",
+    "messages",
+    "spotlight"
+  ],
+  "bugs": {
+    "url": "https://github.com/lakshaykapoor7198/VITScraped-npm-module/issues"
+  },
+  "homepage": "https://github.com/lakshaykapoor7198/VITScraped-npm-module#readme"
+}
