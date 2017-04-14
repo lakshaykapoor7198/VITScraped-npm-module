@@ -5,6 +5,7 @@ var cache=require('memory-cache');
 var parser=require('./parser');
 var initialJar=unirest.jar();
 
+process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0'
 
 // Credits : Karthik Balakrishnan for CaptchaParser
 
