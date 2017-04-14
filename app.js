@@ -8,54 +8,69 @@ var initialJar=unirest.jar();
 
 // Credits : Karthik Balakrishnan for CaptchaParser
 
-// marksScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},'FS',function(data){
-// 	console.log(data);
-// });
 
 
-// proctorScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},function(data){
-// 	console.log(data);
-// });
 
-// digitalAssignmentScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},'FS',function(data){
-// 	console.log(data);
-// });
+marksScrape({regno:'15BCE0909',passwd:'Lakshay1373@k'},'WS',function(data){
+	console.log("******************************************Marks***********************************************************");
+	console.log(data);
+});
 
-// coursePageScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},'WS',function(data){
-// 	console.log(data);
-// });
 
-// timetableScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},'FS',function(data){
-// 	console.log(data);
-// });
+proctorScrape({regno:'15BCE0909',passwd:'Lakshay1373@k'},function(data){
+	console.log("******************************************Marks***********************************************************");
+	console.log(data);
+});
 
-// courseDetailsScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},'WS',function(data,credits){
-// 	console.log(data,credits);
-// });
+digitalAssignmentScrape({regno:'15BCE0909',passwd:'Lakshay1373@k'},'WS',function(data){
+	console.log("******************************************Marks***********************************************************");
+	console.log(data);
+});
 
-// facultyScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},'vijayasherly',function(data){
-// 	console.log(data);
-// });
+coursePageScrape({regno:'15BCE0909',passwd:'Lakshay1373@k'},'WS',function(data){
+	console.log("******************************************Course Page***********************************************************");
+	console.log(data);
+});
 
-// spotlightScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},function(data){
-// 	console.log(data);
-// });
+timetableScrape({regno:'15BCE0909',passwd:'Lakshay1373@k'},'WS',function(data){
+	console.log("******************************************Time Table***********************************************************");
+	console.log(data);
+});
 
-// messageScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},function(data){
-// 	console.log(data[1]['Fall Semester 2016~17']);
-// });
+courseDetailsScrape({regno:'15BCE0909',passwd:'Lakshay1373@k'},'WS',function(data,credits){
+	console.log("******************************************Course***********************************************************");
+	console.log(data,credits);
+});
 
-// profileScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},function(data){
-// 	console.log(data);
-// });
+facultyScrape({regno:'15BCE0909',passwd:'Lakshay1373@k'},'vijayasherly',function(data){
+	console.log("******************************************Faculty***********************************************************");
+	console.log(data);
+});
 
-// cgpaScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},'FS',function(data){
-// 	console.log(data);
-// });
+spotlightScrape({regno:'15BCE0909',passwd:'Lakshay1373@k'},function(data){
+	console.log("******************************************Spotlight***********************************************************");
+	console.log(data);
+});
 
-// attendanceScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},'WS',function(data){
-// 	console.log(data);
-// });
+messageScrape({regno:'15BCE0909',passwd:'Lakshay1373@k'},function(data){
+	console.log("******************************************Message***********************************************************");
+	console.log(data[1]['Fall Semester 2016~17']);
+});
+
+profileScrape({regno:'15BCE0909',passwd:'Lakshay1373@k'},function(data){
+	console.log("******************************************Profile***********************************************************");
+	console.log(data);
+});
+
+cgpaScrape({regno:'15BCE0909',passwd:'Lakshay1373@k'},'WS',function(data){
+	console.log("******************************************CGPA***********************************************************");
+	console.log(data);
+});
+
+attendanceScrape({regno:'15BCE0909',passwd:'Lakshay1373@k'},'WS',function(data){
+	console.log("******************************************Attendance***********************************************************");
+	console.log(data);
+});
 
 
 function autocaptcha(callback){
