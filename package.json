@@ -4,7 +4,7 @@
   "description": "Fully scraping VTOP-student login",
   "main": "app.js",
   "scripts": {
-    "test": "app.js"
+    "test": "node app.js"
   },
   "author": "Lakshay <lakapoor777@gmail.com>",
   "license": "ISC",
