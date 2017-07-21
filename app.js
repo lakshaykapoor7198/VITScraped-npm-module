@@ -12,63 +12,63 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0'
 
 
 
-marksScrape({regno:'15BCE0909',passwd:'Lakshay1373@k'},'WS',function(data){
+marksScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},'WS',function(data){
 	console.log("******************************************Marks***********************************************************");
 	console.log(data);
 });
 
 
-proctorScrape({regno:'15BCE0909',passwd:'Lakshay1373@k'},function(data){
+proctorScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},function(data){
 	console.log("******************************************Marks***********************************************************");
 	console.log(data);
 });
 
-digitalAssignmentScrape({regno:'15BCE0909',passwd:'Lakshay1373@k'},'WS',function(data){
+digitalAssignmentScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},'WS',function(data){
 	console.log("******************************************Marks***********************************************************");
 	console.log(data);
 });
 
-coursePageScrape({regno:'15BCE0909',passwd:'Lakshay1373@k'},'WS',function(data){
+coursePageScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},'WS',function(data){
 	console.log("******************************************Course Page***********************************************************");
 	console.log(data);
 });
 
-timetableScrape({regno:'15BCE0909',passwd:'Lakshay1373@k'},'WS',function(data){
+timetableScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},'WS',function(data){
 	console.log("******************************************Time Table***********************************************************");
 	console.log(data);
 });
 
-courseDetailsScrape({regno:'15BCE0909',passwd:'Lakshay1373@k'},'WS',function(data,credits){
+courseDetailsScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},'WS',function(data,credits){
 	console.log("******************************************Course***********************************************************");
 	console.log(data,credits);
 });
 
-facultyScrape({regno:'15BCE0909',passwd:'Lakshay1373@k'},'vijayasherly',function(data){
+facultyScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},'vijayasherly',function(data){
 	console.log("******************************************Faculty***********************************************************");
 	console.log(data);
 });
 
-spotlightScrape({regno:'15BCE0909',passwd:'Lakshay1373@k'},function(data){
+spotlightScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},function(data){
 	console.log("******************************************Spotlight***********************************************************");
 	console.log(data);
 });
 
-messageScrape({regno:'15BCE0909',passwd:'Lakshay1373@k'},function(data){
+messageScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},function(data){
 	console.log("******************************************Message***********************************************************");
 	console.log(data[1]['Fall Semester 2016~17']);
 });
 
-profileScrape({regno:'15BCE0909',passwd:'Lakshay1373@k'},function(data){
+profileScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},function(data){
 	console.log("******************************************Profile***********************************************************");
 	console.log(data);
 });
 
-cgpaScrape({regno:'15BCE0909',passwd:'Lakshay1373@k'},'WS',function(data){
+cgpaScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},'WS',function(data){
 	console.log("******************************************CGPA***********************************************************");
 	console.log(data);
 });
 
-attendanceScrape({regno:'15BCE0909',passwd:'Lakshay1373@k'},'WS',function(data){
+attendanceScrape({regno:'YourRegisterNoHere',passwd:'Lakshay1373@k'},'WS',function(data){
 	console.log("******************************************Attendance***********************************************************");
 	console.log(data);
 });
@@ -206,6 +206,7 @@ function profileScrape(details,callback){
 		obj["email"]=table.find('tr').eq(7).find('td').eq(1).text().trim();
 		obj["block"]=table.find('tr').eq(10).find('td').eq(1).text().trim();
 		obj["room"]=table.find('tr').eq(11).find('td').eq(1).text().trim();
+		obj["mess"]=table.find('tr').eq(12).find('td').eq(1).text().trim();
 		obj["mobno"]=table.find('tr').eq(26).find('td').eq(1).text().trim();
 		callback(obj);
 
