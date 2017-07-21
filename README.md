@@ -1,10 +1,10 @@
 # VITScraped-npm-module
-##NPM module to fully scrape VTOP Student Login
+## NPM module to fully scrape VTOP Student Login
 
 
-####Works for Winter as well as Fall Semester.
+#### Works for Winter as well as Fall Semester.
 
-##Enter vtop credentials and get these things:
+## Enter vtop credentials and get these things:
 
 ```
 1. Marks
@@ -20,12 +20,12 @@
 11. Proctor
 ```
 
-##Install:
+## Install:
 ```
 npm install vitscraped --save
 ```
 
-##Examples:
+## Examples:
 ```
 var vit=require('vitscraped');
 ```
@@ -85,5 +85,5 @@ vit.attendanceScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},
 
 ```
 
-##Credits: 
+## Credits: 
 **karthikb351** for CaptchaParser
