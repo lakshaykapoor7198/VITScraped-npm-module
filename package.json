@@ -1,6 +1,6 @@
 {
   "name": "vitscraped",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Fully scraping VTOP-student login",
   "main": "app.js",
   "scripts": {
