@@ -10,68 +10,68 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0'
 // Credits : Karthik Balakrishnan for CaptchaParser
 
 
+//Testing Section
+
+// marksScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},'WS',function(data){
+// 	console.log("******************************************Marks***********************************************************");
+// 	console.log(data);
+// });
 
 
-marksScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},'WS',function(data){
-	console.log("******************************************Marks***********************************************************");
-	console.log(data);
-});
+// proctorScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},function(data){
+// 	console.log("******************************************Marks***********************************************************");
+// 	console.log(data);
+// });
 
+// digitalAssignmentScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},'WS',function(data){
+// 	console.log("******************************************Marks***********************************************************");
+// 	console.log(data);
+// });
 
-proctorScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},function(data){
-	console.log("******************************************Marks***********************************************************");
-	console.log(data);
-});
+// coursePageScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},'WS',function(data){
+// 	console.log("******************************************Course Page***********************************************************");
+// 	console.log(data);
+// });
 
-digitalAssignmentScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},'WS',function(data){
-	console.log("******************************************Marks***********************************************************");
-	console.log(data);
-});
+// timetableScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},'WS',function(data){
+// 	console.log("******************************************Time Table***********************************************************");
+// 	console.log(data);
+// });
 
-coursePageScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},'WS',function(data){
-	console.log("******************************************Course Page***********************************************************");
-	console.log(data);
-});
+// courseDetailsScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},'WS',function(data,credits){
+// 	console.log("******************************************Course***********************************************************");
+// 	console.log(data,credits);
+// });
 
-timetableScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},'WS',function(data){
-	console.log("******************************************Time Table***********************************************************");
-	console.log(data);
-});
+// facultyScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},'vijayasherly',function(data){
+// 	console.log("******************************************Faculty***********************************************************");
+// 	console.log(data);
+// });
 
-courseDetailsScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},'WS',function(data,credits){
-	console.log("******************************************Course***********************************************************");
-	console.log(data,credits);
-});
+// spotlightScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},function(data){
+// 	console.log("******************************************Spotlight***********************************************************");
+// 	console.log(data);
+// });
 
-facultyScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},'vijayasherly',function(data){
-	console.log("******************************************Faculty***********************************************************");
-	console.log(data);
-});
+// messageScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},function(data){
+// 	console.log("******************************************Message***********************************************************");
+// 	console.log(data[1]['Fall Semester 2016~17']);
+// });
 
-spotlightScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},function(data){
-	console.log("******************************************Spotlight***********************************************************");
-	console.log(data);
-});
+// profileScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},function(data){
+// 	console.log("******************************************Profile***********************************************************");
+// 	console.log(data);
+// });
 
-messageScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},function(data){
-	console.log("******************************************Message***********************************************************");
-	console.log(data[1]['Fall Semester 2016~17']);
-});
+// cgpaScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},'WS',function(data){
+// 	console.log("******************************************CGPA***********************************************************");
+// 	console.log(data);
+// });
 
-profileScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},function(data){
-	console.log("******************************************Profile***********************************************************");
-	console.log(data);
-});
-
-cgpaScrape({regno:'YourRegisterNoHere',passwd:'YourVTOPPasswordHere'},'WS',function(data){
-	console.log("******************************************CGPA***********************************************************");
-	console.log(data);
-});
-
-attendanceScrape({regno:'YourRegisterNoHere',passwd:'Lakshay1373@k'},'WS',function(data){
-	console.log("******************************************Attendance***********************************************************");
-	console.log(data);
-});
+// attendanceScrape({regno:'YourRegisterNoHere',passwd:'Lakshay1373@k'},'WS',function(data){
+// 	console.log("******************************************Attendance***********************************************************");
+// 	console.log(data);
+// });
 
 
 function autocaptcha(callback){
